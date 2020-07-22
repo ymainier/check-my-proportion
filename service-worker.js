@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/check-my-proportion/precache-manifest.6be1c1ca5148896b71b549199a7b08d1.js"
+  "/check-my-proportion/precache-manifest.055979e53359d1ccacd56a2ce5185325.js"
 );
 
 self.addEventListener('message', (event) => {
