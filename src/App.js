@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   const [imageSrc, setImageSrc] = useState(null);
   const [stream, setStream] = useState(null);
+  const [opacity, setOpacity] = useState(75);
 
   const startCamera = () => {
     if (stream) return;
@@ -19,18 +20,20 @@ function App() {
     setStream(null);
   };
 
-  const style = { backgroundImage: `url(${imageSrc})` };
+  const style = { backgroundImage: imageSrc ? `url(${imageSrc})` : null };
   return (
     <div className="App" style={style}>
-      <video
-        className="video"
-        autoPlay
-        ref={(video) => {
-          if (video) {
-            video.srcObject = stream;
-          }
-        }}
-      />
+      <div className="video-container" style={{opacity: opacity / 100}}>
+        <video
+          className="video"
+          autoPlay
+          ref={(video) => {
+            if (video) {
+              video.srcObject = stream;
+            }
+          }}
+        />
+      </div>
       <input
         className="file"
         type="file"
@@ -48,6 +51,15 @@ function App() {
           Start camera
         </button>
       )}
+      <input
+        className="range"
+        type="range"
+        min="0"
+        max="100"
+        step="5"
+        value={opacity}
+        onChange={(e) => setOpacity(parseInt(e.target.value, 10))}
+      />
     </div>
   );
 }
