@@ -8,7 +8,7 @@ function App() {
   const startCamera = () => {
     if (stream) return;
     navigator.mediaDevices
-      .getUserMedia({ audio: false, video: true })
+      .getUserMedia({ audio: false, video: { facingMode: "environment" } })
       .then((stream) => setStream(stream));
   };
   const stopCamera = () => {
@@ -40,9 +40,13 @@ function App() {
         }}
       />
       {stream ? (
-        <button className="camera" onClick={stopCamera}>Stop camera</button>
+        <button className="camera" onClick={stopCamera}>
+          Stop camera
+        </button>
       ) : (
-        <button className="camera" onClick={startCamera}>Start camera</button>
+        <button className="camera" onClick={startCamera}>
+          Start camera
+        </button>
       )}
     </div>
   );
