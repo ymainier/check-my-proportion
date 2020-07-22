@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e5b0accc99e71632e5e0be61a984977",
+    "revision": "6bf3d0739cecf0732811cc1eede433ba",
     "url": "/check-my-proportion/index.html"
   },
   {
-    "revision": "01592ead6375162487da",
+    "revision": "18e1742d3fa32a903cd1",
     "url": "/check-my-proportion/static/css/main.335e9810.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/check-my-proportion/static/js/2.3befe0dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01592ead6375162487da",
-    "url": "/check-my-proportion/static/js/main.3010b581.chunk.js"
+    "revision": "18e1742d3fa32a903cd1",
+    "url": "/check-my-proportion/static/js/main.0cc1bc2b.chunk.js"
   },
   {
     "revision": "de8758127d96baa832c3",
