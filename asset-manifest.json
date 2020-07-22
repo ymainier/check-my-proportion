@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/check-my-proportion/static/css/main.335e9810.chunk.css",
+    "main.js": "/check-my-proportion/static/js/main.3010b581.chunk.js",
+    "main.js.map": "/check-my-proportion/static/js/main.3010b581.chunk.js.map",
+    "runtime-main.js": "/check-my-proportion/static/js/runtime-main.19d708fd.js",
+    "runtime-main.js.map": "/check-my-proportion/static/js/runtime-main.19d708fd.js.map",
+    "static/js/2.3befe0dc.chunk.js": "/check-my-proportion/static/js/2.3befe0dc.chunk.js",
+    "static/js/2.3befe0dc.chunk.js.map": "/check-my-proportion/static/js/2.3befe0dc.chunk.js.map",
+    "index.html": "/check-my-proportion/index.html",
+    "precache-manifest.167eaeb0758e3d7f84fef05d2c8b9810.js": "/check-my-proportion/precache-manifest.167eaeb0758e3d7f84fef05d2c8b9810.js",
+    "service-worker.js": "/check-my-proportion/service-worker.js",
+    "static/css/main.335e9810.chunk.css.map": "/check-my-proportion/static/css/main.335e9810.chunk.css.map",
+    "static/js/2.3befe0dc.chunk.js.LICENSE.txt": "/check-my-proportion/static/js/2.3befe0dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19d708fd.js",
+    "static/js/2.3befe0dc.chunk.js",
+    "static/css/main.335e9810.chunk.css",
+    "static/js/main.3010b581.chunk.js"
+  ]
+}
